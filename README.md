@@ -7,6 +7,23 @@ of things like rental car time, different hotel bookings and plan the hotels acc
 distance to the next day's activity.
 All this things are technogically solvable and we believe can help users plan a painless itinerary with a set budget 
 and activity preference.
+
 We also believe lot of users face problems digging out booking information regarding Rental Cars/ Baording Pass from 
 Email / specific Apps and search a different App for activities etc, so this app would be one stop solution for all these 
 use cases making your trip a delight.
+
+Installation instructions:
+
+Step 1: Add SSH key to your git account.
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+	eval "$(ssh-agent -s)"
+	ssh-add ~/.ssh/id_rsa
+	pbcopy < ~/.ssh/id_rsa.pub
+	
+	Now add the key to you git account.
+	Test the connection using : ssh -T git@github.com
+
+Step 2: Fork the repo
+Step 3: Make changes and submit a PR.
+
+WELCOME !
