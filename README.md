@@ -27,3 +27,11 @@ Step 2: Fork the repo
 Step 3: Make changes and submit a PR.
 
 WELCOME !
+=======
+Basic Setup For Python:
+1. Once you clone the repo. It has the environment and related django files which should work without any dependencies.
+2. You should see itinerary folder in your cloned directory.
+3. Navigate to itinerary folder (ls itinerary) and you should see a manage.py file there.
+4. Run this command to start your django server
+   ==  python manage.py runserver ==
+5. Now you can see the basic server view at http://127.0.0.1:8000/ in your browser.
