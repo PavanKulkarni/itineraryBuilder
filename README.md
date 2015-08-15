@@ -34,4 +34,11 @@ Basic Setup For Python:
 3. Navigate to itinerary folder (ls itinerary) and you should see a manage.py file there.
 4. Run this command to start your django server
    ==  python manage.py runserver ==
-5. Now you can see the basic server view at http://127.0.0.1:8000/ in your browser.
+5. Now you can see the basic server view at http://127.0.0.1:8000/home in your browser.
+
+== Linux Setup ==
+1. Install pip (sudo apt-get install python-pip)
+2. Install django (sudo apt-get install django)
+3. Run Server (python manage.py runserver)
+4. Go to first page built (http://127.0.0.1:8000/home
+
